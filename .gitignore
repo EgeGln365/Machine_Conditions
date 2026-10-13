@@ -1,24 +1,51 @@
-
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
-
-# Jupyter
+*.py[cod]
+.pytest_cache/
 .ipynb_checkpoints/
 
-# macOS
-.DS_Store
-
-# VS Code
-.vscode/
-
-# Datasetler
-*.csv
-
-# Eğitilmiş model
-*.joblib
-
-# Ortam dosyalari
-.env
+# =========================
+# Virtual environments
+# =========================
 .venv/
 venv/
+env/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# MLflow
+# =========================
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# =========================
+# ML models
+# =========================
+*.joblib
+*.pkl
+*.pickle
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# IDE
+# =========================
+.vscode/
+
+# =========================
+# Docker (temporary files)
+# =========================
+*.log
